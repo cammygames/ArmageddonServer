@@ -1,0 +1,10 @@
+sleep 900;
+prevent_cap = false;
+rebel_captured = false;
+cop_captured = false;
+stop_doublecap = false;
+publicVariable "prevent_cap";
+publicVariable "rebel_captured";
+publicVariable "cop_captured";
+publicVariable "stop_doublecap";
+[[2,"CHECKPOINT 2 CAN NOW BE CAPTURED"],"life_fnc_broadcast",nil,false] spawn life_fnc_MP;
